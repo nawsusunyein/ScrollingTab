@@ -3,12 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		237AACD923B60BF900DDB949 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 237AACD823B60BF900DDB949 /* AppDelegate.m */; };
-		237AACDC23B60BF900DDB949 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 237AACDB23B60BF900DDB949 /* SceneDelegate.m */; };
 		237AACDF23B60BF900DDB949 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 237AACDE23B60BF900DDB949 /* ViewController.m */; };
 		237AACE223B60BF900DDB949 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 237AACE023B60BF900DDB949 /* Main.storyboard */; };
 		237AACE423B60BFB00DDB949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 237AACE323B60BFB00DDB949 /* Assets.xcassets */; };
@@ -16,6 +15,9 @@
 		237AACEA23B60BFB00DDB949 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 237AACE923B60BFB00DDB949 /* main.m */; };
 		237AACF423B60BFC00DDB949 /* ScrollableTabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 237AACF323B60BFC00DDB949 /* ScrollableTabTests.m */; };
 		237AACFF23B60BFC00DDB949 /* ScrollableTabUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 237AACFE23B60BFC00DDB949 /* ScrollableTabUITests.m */; };
+		E298510806B31415604E46C0 /* Pods_ScrollableTabTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8FD827807411FCB1C36849A /* Pods_ScrollableTabTests.framework */; };
+		F08AA6A17009D8F1C75BB226 /* Pods_ScrollableTab_ScrollableTabUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E35718163E986A068FBB41 /* Pods_ScrollableTab_ScrollableTabUITests.framework */; };
+		F69D3CABC596882A904070EF /* Pods_ScrollableTab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 051D30E72A64189D49F44A1E /* Pods_ScrollableTab.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		050CD9A5EEF427F803FAD375 /* Pods-ScrollableTabTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollableTabTests.debug.xcconfig"; path = "Target Support Files/Pods-ScrollableTabTests/Pods-ScrollableTabTests.debug.xcconfig"; sourceTree = "<group>"; };
+		051D30E72A64189D49F44A1E /* Pods_ScrollableTab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollableTab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		237AACD423B60BF900DDB949 /* ScrollableTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollableTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		237AACD723B60BF900DDB949 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		237AACD823B60BF900DDB949 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		237AACDA23B60BF900DDB949 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		237AACDB23B60BF900DDB949 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		237AACDD23B60BF900DDB949 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		237AACDE23B60BF900DDB949 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		237AACE123B60BF900DDB949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +56,13 @@
 		237AACFA23B60BFC00DDB949 /* ScrollableTabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollableTabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		237AACFE23B60BFC00DDB949 /* ScrollableTabUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollableTabUITests.m; sourceTree = "<group>"; };
 		237AAD0023B60BFC00DDB949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60DD3995B317964C199CCE60 /* Pods-ScrollableTab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollableTab.release.xcconfig"; path = "Target Support Files/Pods-ScrollableTab/Pods-ScrollableTab.release.xcconfig"; sourceTree = "<group>"; };
+		86E35718163E986A068FBB41 /* Pods_ScrollableTab_ScrollableTabUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollableTab_ScrollableTabUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95CE78107F87A2D26B349B37 /* Pods-ScrollableTab-ScrollableTabUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollableTab-ScrollableTabUITests.release.xcconfig"; path = "Target Support Files/Pods-ScrollableTab-ScrollableTabUITests/Pods-ScrollableTab-ScrollableTabUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B8FD827807411FCB1C36849A /* Pods_ScrollableTabTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollableTabTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B5BA376CDA61808BF2911E /* Pods-ScrollableTab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollableTab.debug.xcconfig"; path = "Target Support Files/Pods-ScrollableTab/Pods-ScrollableTab.debug.xcconfig"; sourceTree = "<group>"; };
+		DA020A2475C21BBAABE6D778 /* Pods-ScrollableTabTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollableTabTests.release.xcconfig"; path = "Target Support Files/Pods-ScrollableTabTests/Pods-ScrollableTabTests.release.xcconfig"; sourceTree = "<group>"; };
+		DC4C3E34FE3A948A474E68DD /* Pods-ScrollableTab-ScrollableTabUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollableTab-ScrollableTabUITests.debug.xcconfig"; path = "Target Support Files/Pods-ScrollableTab-ScrollableTabUITests/Pods-ScrollableTab-ScrollableTabUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F69D3CABC596882A904070EF /* Pods_ScrollableTab.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E298510806B31415604E46C0 /* Pods_ScrollableTabTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F08AA6A17009D8F1C75BB226 /* Pods_ScrollableTab_ScrollableTabUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +100,8 @@
 				237AACF223B60BFC00DDB949 /* ScrollableTabTests */,
 				237AACFD23B60BFC00DDB949 /* ScrollableTabUITests */,
 				237AACD523B60BF900DDB949 /* Products */,
+				E0FD286F6661BEDE1387F35A /* Pods */,
+				29E35D71C1F65E56DF0E545A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,8 +120,6 @@
 			children = (
 				237AACD723B60BF900DDB949 /* AppDelegate.h */,
 				237AACD823B60BF900DDB949 /* AppDelegate.m */,
-				237AACDA23B60BF900DDB949 /* SceneDelegate.h */,
-				237AACDB23B60BF900DDB949 /* SceneDelegate.m */,
 				237AACDD23B60BF900DDB949 /* ViewController.h */,
 				237AACDE23B60BF900DDB949 /* ViewController.m */,
 				237AACE023B60BF900DDB949 /* Main.storyboard */,
@@ -137,6 +149,29 @@
 			path = ScrollableTabUITests;
 			sourceTree = "<group>";
 		};
+		29E35D71C1F65E56DF0E545A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				051D30E72A64189D49F44A1E /* Pods_ScrollableTab.framework */,
+				86E35718163E986A068FBB41 /* Pods_ScrollableTab_ScrollableTabUITests.framework */,
+				B8FD827807411FCB1C36849A /* Pods_ScrollableTabTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0FD286F6661BEDE1387F35A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7B5BA376CDA61808BF2911E /* Pods-ScrollableTab.debug.xcconfig */,
+				60DD3995B317964C199CCE60 /* Pods-ScrollableTab.release.xcconfig */,
+				DC4C3E34FE3A948A474E68DD /* Pods-ScrollableTab-ScrollableTabUITests.debug.xcconfig */,
+				95CE78107F87A2D26B349B37 /* Pods-ScrollableTab-ScrollableTabUITests.release.xcconfig */,
+				050CD9A5EEF427F803FAD375 /* Pods-ScrollableTabTests.debug.xcconfig */,
+				DA020A2475C21BBAABE6D778 /* Pods-ScrollableTabTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 237AAD0323B60BFC00DDB949 /* Build configuration list for PBXNativeTarget "ScrollableTab" */;
 			buildPhases = (
+				7C58716198DDB20685796DBD /* [CP] Check Pods Manifest.lock */,
 				237AACD023B60BF900DDB949 /* Sources */,
 				237AACD123B60BF900DDB949 /* Frameworks */,
 				237AACD223B60BF900DDB949 /* Resources */,
+				A387C8874FF02E89DE6EF67A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 237AAD0623B60BFC00DDB949 /* Build configuration list for PBXNativeTarget "ScrollableTabTests" */;
 			buildPhases = (
+				5A52CC4CB073638F9893EA64 /* [CP] Check Pods Manifest.lock */,
 				237AACEB23B60BFC00DDB949 /* Sources */,
 				237AACEC23B60BFC00DDB949 /* Frameworks */,
 				237AACED23B60BFC00DDB949 /* Resources */,
@@ -179,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 237AAD0923B60BFC00DDB949 /* Build configuration list for PBXNativeTarget "ScrollableTabUITests" */;
 			buildPhases = (
+				BB2CA5967EE292B89C28F9E8 /* [CP] Check Pods Manifest.lock */,
 				237AACF623B60BFC00DDB949 /* Sources */,
 				237AACF723B60BFC00DDB949 /* Frameworks */,
 				237AACF823B60BFC00DDB949 /* Resources */,
+				F35D1183C1E0295A8C9277FF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,6 +302,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5A52CC4CB073638F9893EA64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScrollableTabTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C58716198DDB20685796DBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScrollableTab-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A387C8874FF02E89DE6EF67A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScrollableTab/Pods-ScrollableTab-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScrollableTab/Pods-ScrollableTab-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScrollableTab/Pods-ScrollableTab-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB2CA5967EE292B89C28F9E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScrollableTab-ScrollableTabUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F35D1183C1E0295A8C9277FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScrollableTab-ScrollableTabUITests/Pods-ScrollableTab-ScrollableTabUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScrollableTab-ScrollableTabUITests/Pods-ScrollableTab-ScrollableTabUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScrollableTab-ScrollableTabUITests/Pods-ScrollableTab-ScrollableTabUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		237AACD023B60BF900DDB949 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -270,7 +413,6 @@
 				237AACDF23B60BF900DDB949 /* ViewController.m in Sources */,
 				237AACD923B60BF900DDB949 /* AppDelegate.m in Sources */,
 				237AACEA23B60BFB00DDB949 /* main.m in Sources */,
-				237AACDC23B60BF900DDB949 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,11 +579,13 @@
 		};
 		237AAD0423B60BFC00DDB949 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7B5BA376CDA61808BF2911E /* Pods-ScrollableTab.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WX3LDTEU9J;
 				INFOPLIST_FILE = ScrollableTab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +598,13 @@
 		};
 		237AAD0523B60BFC00DDB949 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60DD3995B317964C199CCE60 /* Pods-ScrollableTab.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WX3LDTEU9J;
 				INFOPLIST_FILE = ScrollableTab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,6 +617,7 @@
 		};
 		237AAD0723B60BFC00DDB949 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 050CD9A5EEF427F803FAD375 /* Pods-ScrollableTabTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -491,6 +638,7 @@
 		};
 		237AAD0823B60BFC00DDB949 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA020A2475C21BBAABE6D778 /* Pods-ScrollableTabTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -511,6 +659,7 @@
 		};
 		237AAD0A23B60BFC00DDB949 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC4C3E34FE3A948A474E68DD /* Pods-ScrollableTab-ScrollableTabUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WX3LDTEU9J;
@@ -529,6 +678,7 @@
 		};
 		237AAD0B23B60BFC00DDB949 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95CE78107F87A2D26B349B37 /* Pods-ScrollableTab-ScrollableTabUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WX3LDTEU9J;

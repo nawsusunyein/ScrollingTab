@@ -1,0 +1,16 @@
+PODS:
+  - ScrollTab (2.0.0)
+
+DEPENDENCIES:
+  - ScrollTab
+
+SPEC REPOS:
+  trunk:
+    - ScrollTab
+
+SPEC CHECKSUMS:
+  ScrollTab: 1fc26470a93644eef5f872523ce20a42bddede5d
+
+PODFILE CHECKSUM: 322df9743ab750a84b5555b8e51ee09bc4992537
+
+COCOAPODS: 1.8.4
