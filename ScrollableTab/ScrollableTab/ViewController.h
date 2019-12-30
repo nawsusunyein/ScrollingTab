@@ -12,6 +12,7 @@
 
 -(void) setUpTabBar;
 -(void) setUpWebView;
+-(void) setTapTabItem : (NSInteger) index;
 
 @end
 

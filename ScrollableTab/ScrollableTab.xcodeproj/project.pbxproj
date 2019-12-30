@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,9 +15,10 @@
 		237AACEA23B60BFB00DDB949 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 237AACE923B60BFB00DDB949 /* main.m */; };
 		237AACF423B60BFC00DDB949 /* ScrollableTabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 237AACF323B60BFC00DDB949 /* ScrollableTabTests.m */; };
 		237AACFF23B60BFC00DDB949 /* ScrollableTabUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 237AACFE23B60BFC00DDB949 /* ScrollableTabUITests.m */; };
+		23B883C723B991C000AF1548 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B883C523B9901E00AF1548 /* WebKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		23B883CA23B991C200AF1548 /* Pods_ScrollableTab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 051D30E72A64189D49F44A1E /* Pods_ScrollableTab.framework */; };
 		E298510806B31415604E46C0 /* Pods_ScrollableTabTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8FD827807411FCB1C36849A /* Pods_ScrollableTabTests.framework */; };
 		F08AA6A17009D8F1C75BB226 /* Pods_ScrollableTab_ScrollableTabUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E35718163E986A068FBB41 /* Pods_ScrollableTab_ScrollableTabUITests.framework */; };
-		F69D3CABC596882A904070EF /* Pods_ScrollableTab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 051D30E72A64189D49F44A1E /* Pods_ScrollableTab.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		237AACFA23B60BFC00DDB949 /* ScrollableTabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollableTabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		237AACFE23B60BFC00DDB949 /* ScrollableTabUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollableTabUITests.m; sourceTree = "<group>"; };
 		237AAD0023B60BFC00DDB949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23B883C523B9901E00AF1548 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		60DD3995B317964C199CCE60 /* Pods-ScrollableTab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollableTab.release.xcconfig"; path = "Target Support Files/Pods-ScrollableTab/Pods-ScrollableTab.release.xcconfig"; sourceTree = "<group>"; };
 		86E35718163E986A068FBB41 /* Pods_ScrollableTab_ScrollableTabUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollableTab_ScrollableTabUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95CE78107F87A2D26B349B37 /* Pods-ScrollableTab-ScrollableTabUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollableTab-ScrollableTabUITests.release.xcconfig"; path = "Target Support Files/Pods-ScrollableTab-ScrollableTabUITests/Pods-ScrollableTab-ScrollableTabUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -70,7 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F69D3CABC596882A904070EF /* Pods_ScrollableTab.framework in Frameworks */,
+				23B883C723B991C000AF1548 /* WebKit.framework in Frameworks */,
+				23B883CA23B991C200AF1548 /* Pods_ScrollableTab.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +155,7 @@
 		29E35D71C1F65E56DF0E545A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				23B883C523B9901E00AF1548 /* WebKit.framework */,
 				051D30E72A64189D49F44A1E /* Pods_ScrollableTab.framework */,
 				86E35718163E986A068FBB41 /* Pods_ScrollableTab_ScrollableTabUITests.framework */,
 				B8FD827807411FCB1C36849A /* Pods_ScrollableTabTests.framework */,
@@ -256,7 +260,7 @@
 				};
 			};
 			buildConfigurationList = 237AACCF23B60BF900DDB949 /* Build configuration list for PBXProject "ScrollableTab" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -585,7 +589,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WX3LDTEU9J;
 				INFOPLIST_FILE = ScrollableTab/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -604,7 +608,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WX3LDTEU9J;
 				INFOPLIST_FILE = ScrollableTab/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

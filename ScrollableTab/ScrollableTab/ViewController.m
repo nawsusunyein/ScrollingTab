@@ -13,6 +13,7 @@
 @interface ViewController ()<WKUIDelegate,WKNavigationDelegate>
 @property (weak, nonatomic) IBOutlet UIView *tabView;
 @property (weak, nonatomic) IBOutlet WKWebView *webView;
+@property (nonatomic,strong) NSArray *listOfURL;
 
 @end
 
@@ -22,10 +23,11 @@ static NSString *const RequestURL = @"https://www.apple.com/";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.listOfURL = @[@"https://www.google.com",@"https://www.punipunijapan.com/",@"https://www.facebook.com",@"https://www.tutorialspoint.com/",@"https://medium.com/androiddevelopers",@"https://www.appcoda.com"];
     // Do any additional setup after loading the view.
     [self setUpTabBar];
     [self setUpWebView];
-    [self setURLRequest:RequestURL];
+    [self setURLRequest:self.listOfURL[0]];
     
 }
 
@@ -37,12 +39,12 @@ static NSString *const RequestURL = @"https://www.apple.com/";
     config.showUnderlineIndicator = YES;
     config.unselectedBackgroundColor = [UIColor whiteColor];
     config.selectedBackgroundColor = [UIColor whiteColor];
-    config.items = @[@"Google",@"ぷにぶにぷに",@"Facebook",@"Tutorials Points",@"Medium",@"Puni Puni"];
+    config.items = @[@"Google",@"ぷにぶにぷに",@"Facebook",@"Tutorials Points",@"Medium",@"AppComda"];
     
     ScrollTab *tab = [[ScrollTab alloc] init];
     tab.config = config;
     tab.selected = ^(NSString *noop, NSInteger index) {
-        NSLog(@"selected tab with index %@", @(index));
+        [self setTapTabItem:index];
     };
     [self.tabView addSubview:tab];
     [self.view addSubview:self.tabView];
@@ -79,5 +81,10 @@ static NSString *const RequestURL = @"https://www.apple.com/";
                                                   cachePolicy: NSURLRequestUseProtocolCachePolicy
                                               timeoutInterval: 5];
     [self.webView loadRequest: request];
+}
+
+-(void) setTapTabItem : (NSInteger) index{
+    [self setURLRequest:self.listOfURL[index]];
+    NSLog(@"selected tab with index %@", @(index));
 }
 @end
